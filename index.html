@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atakan Karataş</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>atakan karatas</h1>
+        <p>data analyst - web designer</p>
+        <nav>
+          <a href="#about">About Me</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p  style="opacity: 0.6;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+        </div>
+          <img src="./images/main.JPG" alt="Your Photo" class="profile-photo">
+      </section>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="grid">
+          <div class="item">
+            <a href="https://drein100.github.io/serieshub/" target="_blank">
+                <img src="./images/project-1.png" alt="" class="project-img">
+            </a>
+            <p class="project-info">tv series tracking project</p>
+          </div>
+          <div class="item">
+            <a href="https://drein100.github.io/serieshub/" target="_blank">
+                <img src="./images/project-1.png" alt="" class="project-img">
+            </a>
+            <p class="project-info">tv series tracking project</p>
+          </div>
+          <div class="item">
+            <a href="https://drein100.github.io/serieshub/" target="_blank">
+                <img src="./images/project-1.png" alt="" class="project-img">
+            </a>
+            <p class="project-info">tv series tracking project</p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2 style="text-align: center;">Skills</h2>
+        <div class="skill">
+          <span>HTML - CSS</span>
+          <div class="skill-bar">
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Javascript</span>
+          <div class="skill-bar">
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Python</span>
+          <div class="skill-bar">
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box filled"></div>
+            <div class="skill-box"></div>
+          </div>
+        </div>
+        <div class="skill">
+            <span>Figma</span>
+            <div class="skill-bar">
+              <div class="skill-box filled"></div>
+              <div class="skill-box filled"></div>
+              <div class="skill-box filled"></div>
+              <div class="skill-box filled"></div>
+              <div class="skill-box"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>SQL</span>
+            <div class="skill-bar">
+              <div class="skill-box filled"></div>
+              <div class="skill-box filled"></div>
+              <div class="skill-box"></div>
+              <div class="skill-box "></div>
+              <div class="skill-box"></div>
+            </div>
+        </div>
+      </section>      
+      <section id="contact">
+        <h1>Contact</h1>
+        <form>
+            <div class="box">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="box">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="box">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <footer>
+        <p>&copy; 2024 atakan karatas. all rights reserved.</p>
+      </footer>
+</body>
+<script src="app.js"></script>
+</html>
